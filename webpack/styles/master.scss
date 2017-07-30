@@ -1,0 +1,57 @@
+// SCSS From UI REPO
+// Do not copy over the following:
+//  - //BOOTSTRAP//
+// Last Sync Date: 12/16/16
+/* ------------------------- IMPORT VARIABLES ------------------------------ */
+
+@import "base/variables";
+
+/* ------------------------- IMPORT 3RD PARTY VENDORS ---------------------- */
+@import "~bootstrap-sass/assets/stylesheets/bootstrap-sprockets";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+@import "~font-awesome/scss/font-awesome";
+@import '~react-joyride/lib/react-joyride';
+@import '~rc-pagination/assets/index.css';
+@import "widgets/comments";
+//BASE//
+@import "base/colors";
+@import "base/fonts";
+@import "base/variables";
+
+//ELEMENTS//
+@import "elements/buttons";
+@import "elements/input";
+@import "elements/table";
+
+//WIDGETS//
+@import "widgets/responseset";
+@import "widgets/questions";
+@import "widgets/forms";
+@import "widgets/analytics";
+@import "widgets/search";
+@import "widgets/recentitems";
+@import "widgets/modal";
+@import "widgets/question_modal";
+@import "widgets/response_set_modal";
+@import "widgets/searchresults";
+@import "widgets/pagination";
+
+
+//LAYOUTS//
+@import "layouts/body";
+@import "layouts/panels";
+@import "layouts/footer";
+@import "layouts/frameworks";
+@import "layouts/printview";
+@import "layouts/showpageheader";
+@import "layouts/contentbox";
+@import "layouts/maincontentarea";
+@import "layouts/form_edit";
+@import "layouts/response_set";
+@import "layouts/survey_edit";
+@import "layouts/cdcjumbotron";
+@import "layouts/help";
+
+//NAVIGATION//
+@import "navigation/nav";
+@import "navigation/sidenav";

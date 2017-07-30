@@ -1,0 +1,56 @@
+
+.analytics-group {
+  margin-top: 14px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 150px;
+  text-align: center;
+  border: 1px solid $light-gray;
+}
+
+.analytics-list-group {
+  @extend .list-group;
+  display: table;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.analytics-list-item {
+  @extend .list-group-item;
+  display: table-cell !important;
+  width: 25% !important;
+  color: $cdc-blue !important;
+  text-align: center !important;
+  border: none !important;
+  border-left: solid 1px $light-gray !important;
+  border-bottom: solid 1px $light-gray !important;
+  height: 150px !important;
+  &:first-child {
+    border-left: none !important;
+  }
+  &:hover {
+    background-color: $analytics-hover-blue !important;
+    text-decoration: none !important;
+  }
+}
+
+.analytics-active-item {
+  background-color: $analytics-hover-blue !important;
+}
+
+.item-icon {
+  margin-top: 20px;
+}
+
+.item-value {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.item-title {
+  font-size: 14px;
+  color: $dark-gray;
+  margin-top: 4px;
+}

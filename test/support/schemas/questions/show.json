@@ -1,0 +1,23 @@
+{
+    "properties": {
+      "questionId" : {"type" : "string"},
+      "questionText" : {"type" : "string"},
+      "questionUri" : {"type" : "string"},
+      "questionType" : {"type" : "string"},
+      "responseType" : {"type" : "string"},
+      "version" : {"type" : "number"},
+      "published_by" : {
+      "type" : "object",
+      "properties:": {
+        "id" : {"type" : "string"},
+        "email" : {"type" : "string"},
+        "name" : {"type" : "string"},
+        "first_name" : {"type" : "string"},
+        "last_name" : {"type" : "string"},
+        "last_program_id" : {"type" : "string"},
+        "last_system_id" : {"type" : "string"},
+        "publisher" : {"type" : "boolean"}
+      }
+    }
+  }
+}

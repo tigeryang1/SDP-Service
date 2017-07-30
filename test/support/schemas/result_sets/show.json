@@ -1,0 +1,49 @@
+{
+  "properties": {
+    "url" : {"type" : "string"},
+    "identifier" : {
+      "type": "array",
+      "items" : {
+        "type" : "object",
+        "properties" : {
+          "system" : {"type" : "string"},
+          "value" : {"type" : "string"}
+        }
+      }
+    },
+    "version" : {"type" : "number"},
+    "name" : {"type" : "string"},
+    "description" : {"type" : "string"},
+    "publisher" : {"type" : "string"},
+    "expansion" : {
+      "type" : "object",
+      "properties" : {
+        "contains" : {
+          "type" : "array",
+          "items" : {
+            "type" : "object",
+            "properties" : {
+              "system" : {"type": "string"},
+              //"version" : {"type": "number"},
+              "code" : {"type": "string"},
+              "display" : {"type": "string"}
+            }
+          }
+        }
+      }
+    },
+    "published_by" : {
+      "type" : "object",
+      "properties:": {
+        "id" : {"type" : "string"},
+        "email" : {"type" : "string"},
+        "name" : {"type" : "string"},
+        "first_name" : {"type" : "string"},
+        "last_name" : {"type" : "string"},
+        "last_program_id" : {"type" : "string"},
+        "last_system_id" : {"type" : "string"},
+        "publisher" : {"type" : "boolean"}
+      }
+    }
+  }
+}

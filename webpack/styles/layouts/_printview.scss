@@ -1,0 +1,24 @@
+@media print {
+  nav {
+    display:none;
+  }
+  footer {
+    display:none;
+  }
+  div.no-print {
+    display:none;
+  }
+  div.basic-bg {
+    margin-top: 0px;
+  }
+  div.maincontent {
+    border-left: 0px;
+    border-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+  }
+  a[href]:after {
+    content: none !important;
+  }
+}

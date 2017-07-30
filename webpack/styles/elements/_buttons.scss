@@ -1,0 +1,74 @@
+.button {
+  @extend .btn;
+  border-radius: 0px;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px 16px;
+  border: 0px;
+  .icon {
+    margin-right: 10px;
+  }
+}
+
+.button-action {
+  @extend .btn-primary;
+  background-color: $cdc-blue;
+}
+
+.button-submit {
+  @extend .btn-success;
+  background-color: $cdc-green;
+}
+
+.button-disabled {
+  background-color: gray;
+}
+
+.export-btn-menu-item {
+  list-style-type: none;
+  margin-left: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.export-btn-menu-item:hover {
+  background-color: #e4e4e4;
+}
+
+a.dropdown-toggle{
+}
+
+a.widget-dropdown-toggle{
+  @extend .dropdown-toggle;
+  padding-left: 5px;
+  padding-right: 5px;
+  &:focus {
+    outline: 1px;
+    outline-style: dashed;
+    outline-color: black;
+    box-shadow: 2px 2px 2px #888;
+  }
+}
+
+.load-more-btn {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.darker-text {
+  color: $dark-gray;
+}
+
+.joyride-tooltip__close {
+  visibility: hidden !important;
+}
+
+caption {
+  color: $medium-gray;
+}
+
+i.fa-close{
+  cursor: pointer;
+}

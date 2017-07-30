@@ -1,0 +1,149 @@
+.search-group {
+  @extend .input-group;
+  margin-top: 14px;
+  margin-bottom: 8px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.nested-search-group {
+  @extend .input-group;
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.menu-action{
+  cursor: pointer;
+}
+
+.search-result-list {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 20px;
+}
+
+.load-more-search {
+  max-height: 130vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.search-group-btn {
+  @extend .input-group-btn;
+}
+
+.search-result-heading {
+  font-size: 20px;
+  font-weight: bold;
+  color: $dark-gray;
+}
+
+.search-result{
+  hr {
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    height: 1px;
+    color: #e6e5e5;
+    background-color: #e6e5e5;
+  }
+  .search-result-name {
+    font-size: 18px;
+    color: $cdc-blue;
+    margin-bottom: 5px;
+    .search-result-type {
+      color: $dark-gray;
+    }
+  }
+  .search-result-description {
+    font-size: 13px;
+    color: $dark-gray;
+  }
+  .search-result-stats {
+    font-size: 11px;
+    hr {
+      border:none;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      border-top:2px dashed $light-gray;
+      color:#fff;
+      background-color:#fff;
+      height:2px;
+      width:100%;
+    }
+  }
+}
+
+.search-category-btn {
+  @extend .btn;
+  font-size: 14px;
+  color: $cdc-blue;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  font-weight: bold;
+  border-left: 1px solid $cdc-blue;
+  border-top: 1px solid $cdc-blue;
+  border-bottom: 1px solid $cdc-blue;
+  border-right: 0px;
+  background-color: white;
+  padding: 6px 12px 7px 12px;
+  .search-caret {
+    @extend .caret;
+    margin-left: 10px;
+  }
+}
+
+.search-input {
+  @extend .form-control;
+  border: 1px solid $cdc-blue;
+}
+
+.search-btn {
+  @extend .btn;
+  border-left: none;
+  border-right: 1px solid $cdc-blue;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+  padding: 6px 12px 7px 12px;
+  &:hover {
+    background-color: $hover-blue;
+    border: 1px solid $cdc-blue;
+  }
+  .search-btn-icon {
+    color: $dark-gray;
+  }
+}
+
+.search-btn-default {
+  @extend .btn-default;
+  border: 1px solid $cdc-blue;
+}
+
+.adv-filter-modal-body {
+  min-height: 160px;
+}
+
+.adv-search-link {
+  margin-right: 25px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.adv-filter-list {
+  padding-left: 20px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: $dark-gray;
+
+  .adv-filter-list-item {
+    font-size: 13px;
+    font-weight: normal;
+    color: $dark-gray;
+  }
+}
+
+.simple-search-icon {
+  color: GoldenRod;
+}
